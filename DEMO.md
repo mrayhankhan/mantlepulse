@@ -41,8 +41,8 @@ Have two windows ready: the **dashboard** and a **terminal** running the agent.
 >
 > 4/ The proof: every signal is recorded on-chain in our SignalRegistry on Mantle (with an evidence hash). The agent holds its own ERC-8004 identity NFT. ⛓️ [attach Explorer screenshot]
 >
-> 5/ Live dashboard 👉 [URL] · open-source 👉 [repo] · built 100% on @0xMantle at $0.
-> Vote for us 👉 [DoraHacks link]
+> 5/ Live dashboard 👉 https://mrayhankhan.github.io/mantlepulse/ · open-source 👉 https://github.com/mrayhankhan/mantlepulse · built 100% on @0xMantle at $0.
+> Vote for us 👉 [your DoraHacks BUIDL link]
 > #MantlePulse #AI #DeFi #Mantle
 
 **Tags to include:** `@0xMantle` `@DoraHacks` `@MiranaVentures` (your track sponsor).

@@ -66,22 +66,22 @@ party can audit what the agent saw and decided.
 
 | Item | Link |
 |---|---|
-| GitHub repo (open-source, MIT) | _\<paste repo URL\>_ |
-| Public dashboard | _\<paste Vercel URL\>_ |
-| Demo video (≥2 min) | _\<paste link\>_ |
-| `SignalRegistry` (Mantle, verified) | _\<paste address + explorer link\>_ |
-| `AgentIdentityRegistry` (Mantle, verified) | _\<paste address + explorer link\>_ |
-| AgentID (ERC-8004) | _\<#id\>_ |
+| GitHub repo (open-source, MIT) | https://github.com/mrayhankhan/mantlepulse |
+| Public dashboard | https://mrayhankhan.github.io/mantlepulse/ |
+| Demo video (≥2 min) | _\<paste link after recording — script in DEMO.md\>_ |
+| `SignalRegistry` (Mantle Sepolia, verified) | [`0xF47358CB00E0263A702DdCFd3e2a39084f82071A`](https://sepolia.mantlescan.xyz/address/0xF47358CB00E0263A702DdCFd3e2a39084f82071A#code) |
+| `AgentIdentityRegistry` (Mantle Sepolia, verified) | [`0xFddE3DBCcFf40AD9e7C7e396132759359556c16D`](https://sepolia.mantlescan.xyz/address/0xFddE3DBCcFf40AD9e7C7e396132759359556c16D#code) |
+| AgentID (ERC-8004) | **#1** · operator `0x08223AF249ACC0A1E942aA135367BBAa27b37a56` · 70+ on-chain signals |
 
 ## 8. Finalist & Deployment Award checklist
 
-- [ ] Smart contract deployed on Mantle (Sepolia testnet or mainnet)
-- [ ] Contract verified on Mantle Explorer
-- [ ] ≥1 AI-powered function callable on-chain → `SignalRegistry.recordSignal(...)`
-- [ ] Frontend demo publicly accessible (Vercel, not localhost)
-- [ ] Deployment address included in this submission
-- [ ] Demo video ≥ 2 min walking the core use case
-- [ ] Open-source GitHub repo with README (setup, architecture, deployed address)
+- [x] Smart contract deployed on Mantle Sepolia — `SignalRegistry` + `AgentIdentityRegistry`
+- [x] Contract verified on Mantle Explorer — Sourcify exact-match, shown on Mantlescan
+- [x] ≥1 AI-powered function callable on-chain → `SignalRegistry.recordSignal(...)` (70+ signals recorded)
+- [x] Frontend demo publicly accessible → https://mrayhankhan.github.io/mantlepulse/
+- [x] Deployment address included in this submission → section 7
+- [ ] Demo video ≥ 2 min walking the core use case → **record next** (script in DEMO.md)
+- [x] Open-source GitHub repo with README → https://github.com/mrayhankhan/mantlepulse
 
 ## 9. Scorecard self-assessment
 
