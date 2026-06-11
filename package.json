@@ -1,0 +1,27 @@
+{
+  "name": "mantlepulse",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MantlePulse — AI protocol-health intelligence for Mantle DeFi, with on-chain signal benchmarking and ERC-8004 agent identity.",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:testnet": "hardhat run scripts/deploy.js --network mantleSepolia",
+    "deploy:mainnet": "hardhat run scripts/deploy.js --network mantleMainnet",
+    "agent": "node agent/run.js",
+    "agent:once": "node agent/run.js --once",
+    "seed": "node agent/run.js --cycles 20",
+    "feed": "node -e \"require('./agent/feed').writeFeed()\"",
+    "bot": "node bot/telegram.js",
+    "serve": "npx --yes serve web -l 3000"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.10"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "5.0.2",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.2"
+  }
+}

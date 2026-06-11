@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MantlePulse — On-chain AI Health Intelligence for Mantle DeFi</title>
+    <meta name="description" content="An autonomous AI agent that monitors the health of Mantle's DeFi stack in real time, detects anomalies, and records verifiable risk signals on-chain." />
+    <meta property="og:title" content="MantlePulse — on-chain AI health intelligence for Mantle" />
+    <meta property="og:description" content="Live, verifiable protocol-health signals for Mantle DeFi. Built for the Turing Test Hackathon." />
+    <meta property="og:image" content="./assets/og.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div id="preloader" class="preloader">
+      <svg viewBox="0 0 300 80" class="pre-ecg" aria-hidden="true">
+        <polyline points="0,40 90,40 105,40 115,12 128,68 140,40 300,40" fill="none" stroke="#34e3b0" stroke-width="2.5" />
+      </svg>
+      <div class="pre-word">Mantle<span>Pulse</span></div>
+    </div>
+
+    <!-- Custom cursor -->
+    <div id="cdot" class="cdot" aria-hidden="true"></div>
+    <div id="cring" class="cring" aria-hidden="true"></div>
+
+    <!-- Scroll progress -->
+    <div id="progress" class="progress" aria-hidden="true"></div>
+
+    <!-- Ambient glows -->
+    <div class="ambient" aria-hidden="true"></div>
+
+    <!-- Sticky nav -->
+    <nav id="nav" class="nav">
+      <a class="nav-brand" href="#top"><span class="nav-logo"></span> Mantle<b>Pulse</b></a>
+      <div class="nav-links">
+        <a href="#vitals">Vitals</a>
+        <a href="#verify">Verify</a>
+        <button id="soundToggle" class="nav-toggle" type="button" title="Toggle pulse sound" aria-pressed="false">🔈 pulse</button>
+        <span id="navStatus" class="nav-status">●&nbsp;live</span>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <header id="top" class="hero">
+      <div class="hero-bg">
+        <video id="heroVideo" autoplay muted loop playsinline>
+          <source src="./assets/hero.mp4" type="video/mp4" />
+        </video>
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="hero-inner">
+        <div class="hero-pill"><span class="ping"></span> AUTONOMOUS · MONITORING MANTLE</div>
+        <h1 class="hero-word">Mantle<span>Pulse</span></h1>
+        <p class="hero-sub">On-chain AI health intelligence for Mantle DeFi.<br />It feels the pulse of every protocol — and writes the proof on-chain.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#vitals">See the vitals ↓</a>
+          <a class="btn btn-ghost" href="#verify">Verify on-chain</a>
+        </div>
+      </div>
+
+      <canvas id="heroEcg" class="hero-ecg" aria-hidden="true"></canvas>
+      <div class="scroll-cue" aria-hidden="true"><span></span></div>
+    </header>
+
+    <!-- Signals ticker -->
+    <div class="ticker" aria-hidden="true"><div id="tickerTrack" class="ticker-track"></div></div>
+
+    <!-- VITALS + BENTO -->
+    <main class="wrap">
+      <section id="vitals" class="section">
+        <div class="sec-head" data-reveal>
+          <span class="kicker">01 — System vitals</span>
+          <h2>The live state of Mantle's DeFi vital signs.</h2>
+          <p>One autonomous agent, watching network throughput, liquidity and RWA assets — scoring health, flagging anomalies, every cycle.</p>
+        </div>
+        <div id="bento" class="bento" data-reveal></div>
+      </section>
+
+      <section id="verify" class="section">
+        <div class="sec-head" data-reveal>
+          <span class="kicker">02 — Proof, not promises</span>
+          <h2>Every signal is benchmarked on-chain.</h2>
+          <p>No black box. Each decision is recorded in the SignalRegistry on Mantle, and the agent carries its own ERC-8004 identity.</p>
+        </div>
+        <div id="verifyGrid" class="verify-grid" data-reveal></div>
+      </section>
+    </main>
+
+    <footer class="footer" id="footer"></footer>
+    <div id="toasts" class="toasts" aria-live="assertive"></div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

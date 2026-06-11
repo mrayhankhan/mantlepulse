@@ -1,0 +1,194 @@
+{
+  "generatedAt": "2026-06-11T04:55:38.928Z",
+  "deployed": true,
+  "network": "mantleSepolia",
+  "agentId": "1",
+  "contracts": {
+    "AgentIdentityRegistry": "0xFddE3DBCcFf40AD9e7C7e396132759359556c16D",
+    "SignalRegistry": "0xF47358CB00E0263A702DdCFd3e2a39084f82071A"
+  },
+  "explorer": "https://sepolia.mantlescan.xyz",
+  "stats": {
+    "totalSignals": 40,
+    "anomalies": 6,
+    "avgHealth": 84.2,
+    "protocols": 5
+  },
+  "protocols": [
+    {
+      "key": "merchant-moe",
+      "label": "Merchant Moe",
+      "metric": "liquidity_index",
+      "value": 1220351,
+      "health": 69.48,
+      "risk": 30.52,
+      "anomaly": false,
+      "z": 1.22,
+      "pctVsBaseline": 57.78,
+      "ts": 1781153695,
+      "message": "✅ Merchant Moe: liquidity index stable (+57.8% vs baseline, z=1.22). Health 69.5/100.",
+      "history": [
+        0,
+        19.5,
+        43.98,
+        54.11,
+        59.18,
+        62.52,
+        66.73,
+        69.48
+      ],
+      "source": "simulated",
+      "txHash": "0xdd48409007e804e3b9089e3545df7949598e3255a11b47efead112e1fa761e91"
+    },
+    {
+      "key": "mantle-network",
+      "label": "Mantle Network",
+      "metric": "gas_utilization_pct",
+      "value": 0.58,
+      "health": 73.09,
+      "risk": 26.91,
+      "anomaly": false,
+      "z": 1.08,
+      "pctVsBaseline": 38.97,
+      "ts": 1781153695,
+      "message": "✅ Mantle Network: gas utilization pct stable (+39.0% vs baseline, z=1.08). Health 73.1/100.",
+      "history": [
+        83.55,
+        34.06,
+        85.93,
+        84.4,
+        11.14,
+        75.64,
+        67.57,
+        73.09
+      ],
+      "source": "live",
+      "txHash": "0xad43698e5a2f40e9cee8b4fc42ae16b98940682a9c949d2f13cc41fbdedd3e1b"
+    },
+    {
+      "key": "agni-finance",
+      "label": "Agni Finance",
+      "metric": "liquidity_index",
+      "value": 751688,
+      "health": 81.51,
+      "risk": 18.49,
+      "anomaly": false,
+      "z": 0.74,
+      "pctVsBaseline": 7.74,
+      "ts": 1781153695,
+      "message": "✅ Agni Finance: liquidity index stable (+7.7% vs baseline, z=0.74). Health 81.5/100.",
+      "history": [
+        0,
+        23.15,
+        42.85,
+        72.73,
+        70.33,
+        75.88,
+        77.56,
+        81.51
+      ],
+      "source": "simulated",
+      "txHash": "0x28df258d389d7a82554245a8ab675e5b62861f90a784b37a3ba713db5732fda2"
+    },
+    {
+      "key": "wmnt",
+      "label": "WMNT · Wrapped MNT",
+      "metric": "supply_index",
+      "value": 12615197.520793691,
+      "health": 96.72,
+      "risk": 3.28,
+      "anomaly": false,
+      "z": -0.13,
+      "pctVsBaseline": -0.07,
+      "ts": 1781153695,
+      "message": "✅ WMNT · Wrapped MNT: supply index stable (-0.1% vs baseline, z=-0.13). Health 96.7/100.",
+      "history": [
+        100,
+        100,
+        100,
+        100,
+        99.38,
+        99.78,
+        96.54,
+        96.72
+      ],
+      "source": "onchain",
+      "txHash": "0x4416eedbf56dbb83e5366d385f36dc547623a4598a31de9071dad340d96dc6b6"
+    },
+    {
+      "key": "cmeth-rwa",
+      "label": "cmETH · Restaked ETH",
+      "metric": "supply_index",
+      "value": 28398.670871,
+      "health": 100,
+      "risk": 0,
+      "anomaly": false,
+      "z": 0,
+      "pctVsBaseline": 0,
+      "ts": 1781153695,
+      "message": "✅ cmETH · Restaked ETH: supply index stable (+0.0% vs baseline, z=0). Health 100.0/100.",
+      "history": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "source": "onchain",
+      "txHash": "0x56aaf92e8f4d5d6df88d2361e535eb74fe55ccd3c1e7c9c55ed44b6da8468a11"
+    }
+  ],
+  "alerts": [
+    {
+      "ts": 1781153560,
+      "label": "Mantle Network",
+      "message": "⚠️ ANOMALY — Mantle Network: gas utilization pct spiked +104.5% vs baseline (z=3.55). Risk 88.9/100 · health 11.1/100.",
+      "health": 11.14,
+      "risk": 88.86,
+      "txHash": "0xa73c4ce271449e9c0d7543f4a18f3d0dccf83f1ba4f690ddddb5f80e17b82997"
+    },
+    {
+      "ts": 1781153418,
+      "label": "Agni Finance",
+      "message": "⚠️ ANOMALY — Agni Finance: liquidity index spiked +23.7% vs baseline (z=3.07). Risk 76.8/100 · health 23.1/100.",
+      "health": 23.15,
+      "risk": 76.85,
+      "txHash": "0xfc3295ca84aaa3a8d3ab670728857312e84b326598cb2562d06c862897521b47"
+    },
+    {
+      "ts": 1781153418,
+      "label": "Merchant Moe",
+      "message": "⚠️ ANOMALY — Merchant Moe: liquidity index spiked +123.2% vs baseline (z=3.22). Risk 80.5/100 · health 19.5/100.",
+      "health": 19.5,
+      "risk": 80.5,
+      "txHash": "0x5e048157a9261800602547aa0ea93bfa1c8abe8ef6c3b7d44de706c426d4391b"
+    },
+    {
+      "ts": 1781153418,
+      "label": "Mantle Network",
+      "message": "⚠️ ANOMALY — Mantle Network: gas utilization pct spiked +73.5% vs baseline (z=2.64). Risk 65.9/100 · health 34.1/100.",
+      "health": 34.06,
+      "risk": 65.94,
+      "txHash": "0xe64be37525993161ac66dcb26506047ff39098dca915814f0978c85c7461d097"
+    },
+    {
+      "ts": 1781153374,
+      "label": "Agni Finance",
+      "message": "⚠️ ANOMALY — Agni Finance: liquidity index spiked +27.0% vs baseline (z=10.59). Risk 100.0/100 · health 0.0/100.",
+      "health": 0,
+      "risk": 100,
+      "txHash": "0x173bf2acdca79b526caa289fcc768417347f0143e70424a8e09ba65f892d6ec9"
+    },
+    {
+      "ts": 1781153374,
+      "label": "Merchant Moe",
+      "message": "⚠️ ANOMALY — Merchant Moe: liquidity index spiked +151.3% vs baseline (z=18.32). Risk 100.0/100 · health 0.0/100.",
+      "health": 0,
+      "risk": 100,
+      "txHash": "0x5c2a7a309de1240052dc70f2d3ec60831821bb7aacc0b66042c3f376bcaf7c74"
+    }
+  ]
+}
