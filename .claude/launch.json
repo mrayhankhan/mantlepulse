@@ -6,6 +6,12 @@
       "runtimeExecutable": "npx",
       "runtimeArgs": ["--yes", "serve", "web", "-l", "4173"],
       "port": 4173
+    },
+    {
+      "name": "og-card",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["--yes", "serve", "scripts", "-l", "4174"],
+      "port": 4174
     }
   ]
 }
