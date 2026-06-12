@@ -19,7 +19,9 @@ Built for **The Turing Test Hackathon 2026** · Track: **AI Alpha & Data** (Mira
 | **SignalRegistry** — on-chain AI signals | [`0xF47358CB00E0263A702DdCFd3e2a39084f82071A`](https://sepolia.mantlescan.xyz/address/0xF47358CB00E0263A702DdCFd3e2a39084f82071A) | [Mantlescan](https://sepolia.mantlescan.xyz/address/0xF47358CB00E0263A702DdCFd3e2a39084f82071A#code) · [Sourcify](https://repo.sourcify.dev/contracts/full_match/5003/0xF47358CB00E0263A702DdCFd3e2a39084f82071A/) |
 | **AgentIdentityRegistry** — ERC-8004 identity | [`0xFddE3DBCcFf40AD9e7C7e396132759359556c16D`](https://sepolia.mantlescan.xyz/address/0xFddE3DBCcFf40AD9e7C7e396132759359556c16D) | [Mantlescan](https://sepolia.mantlescan.xyz/address/0xFddE3DBCcFf40AD9e7C7e396132759359556c16D#code) · [Sourcify](https://repo.sourcify.dev/contracts/full_match/5003/0xFddE3DBCcFf40AD9e7C7e396132759359556c16D/) |
 
-**Agent identity:** AgentID **#1** · operator `0x08223AF249ACC0A1E942aA135367BBAa27b37a56` · **70+ signals recorded on-chain**, each with an evidence hash.
+**Agent identity:** AgentID **#1** · operator `0x08223AF249ACC0A1E942aA135367BBAa27b37a56` · **75+ signals recorded on-chain**, each with an evidence hash.
+
+**🎬 Demo video:** https://youtu.be/0xJUTkhGzz4 · **🌐 Live dashboard:** https://mrayhankhan.github.io/mantlepulse/
 
 ---
 

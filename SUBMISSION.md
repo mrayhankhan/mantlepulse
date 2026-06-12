@@ -68,7 +68,7 @@ party can audit what the agent saw and decided.
 |---|---|
 | GitHub repo (open-source, MIT) | https://github.com/mrayhankhan/mantlepulse |
 | Public dashboard | https://mrayhankhan.github.io/mantlepulse/ |
-| Demo video (≥2 min) | _\<paste link after recording — script in DEMO.md\>_ |
+| Demo video (≥2 min) | https://youtu.be/0xJUTkhGzz4 |
 | `SignalRegistry` (Mantle Sepolia, verified) | [`0xF47358CB00E0263A702DdCFd3e2a39084f82071A`](https://sepolia.mantlescan.xyz/address/0xF47358CB00E0263A702DdCFd3e2a39084f82071A#code) |
 | `AgentIdentityRegistry` (Mantle Sepolia, verified) | [`0xFddE3DBCcFf40AD9e7C7e396132759359556c16D`](https://sepolia.mantlescan.xyz/address/0xFddE3DBCcFf40AD9e7C7e396132759359556c16D#code) |
 | AgentID (ERC-8004) | **#1** · operator `0x08223AF249ACC0A1E942aA135367BBAa27b37a56` · 70+ on-chain signals |
@@ -80,7 +80,7 @@ party can audit what the agent saw and decided.
 - [x] ≥1 AI-powered function callable on-chain → `SignalRegistry.recordSignal(...)` (70+ signals recorded)
 - [x] Frontend demo publicly accessible → https://mrayhankhan.github.io/mantlepulse/
 - [x] Deployment address included in this submission → section 7
-- [ ] Demo video ≥ 2 min walking the core use case → **record next** (script in DEMO.md)
+- [x] Demo video ≥ 2 min walking the core use case → https://youtu.be/0xJUTkhGzz4
 - [x] Open-source GitHub repo with README → https://github.com/mrayhankhan/mantlepulse
 
 ## 9. Scorecard self-assessment
